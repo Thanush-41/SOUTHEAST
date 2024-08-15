@@ -1,0 +1,21 @@
+.h5-audio-player {
+    flex: 1;
+    margin-left: 16px;
+  }
+  
+  .h5-audio-player .rhap_progress-section,
+  .h5-audio-player .rhap_controls-section {
+    justify-content: flex-start;
+  }
+  
+  .h5-audio-player .rhap_time,
+  .h5-audio-player .rhap_current-time,
+  .h5-audio-player .rhap_total-time {
+    font-size: 0.75rem;
+    color: #333;
+  }
+  
+  .h5-audio-player .rhap_volume-container {
+    display: none;
+  }
+  
